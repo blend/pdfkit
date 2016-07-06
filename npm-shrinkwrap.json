@@ -1,0 +1,23 @@
+{
+  "name": "pdfkit",
+  "version": "0.7.2",
+  "dependencies": {
+    "linebreak": {
+      "version": "0.1.2",
+      "from": "linebreak@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/linebreak/-/linebreak-0.1.2.tgz",
+      "dependencies": {
+        "unicode-trie": {
+          "version": "0.1.2",
+          "from": "unicode-trie@>=0.1.1 <0.2.0",
+          "resolved": "https://registry.npmjs.org/unicode-trie/-/unicode-trie-0.1.2.tgz"
+        }
+      }
+    },
+    "png-js": {
+      "version": "0.1.1",
+      "from": "git+https://github.com/devongovett/png.js.git",
+      "resolved": "git+https://github.com/devongovett/png.js.git#8350cd9e5112b8bc52c55d016d4393bb7889a8af"
+    }
+  }
+}
